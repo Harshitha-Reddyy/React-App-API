@@ -1,0 +1,46 @@
+body{
+  background-color: black;
+
+}
+
+h2{
+  color: palevioletred;
+  text-align: center;
+  font-size: 5rem;
+  margin: 0 0 0.5em;
+  font-family: constantia;
+}
+
+.container{
+  background-color: powderblue;
+  max-width: 1300px;
+  margin:0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box{
+  background-color: grey;
+  width: 28%;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 2px 2px 10px pink;
+}
+
+h5{
+  color: purple;
+  text-align: center;
+  font-family: constantia;
+}
+
+p{
+  color: whitesmoke;
+  font-size: 0.9rem;
+}
+
+.comment {
+  color:red;
+    cursor: pointer;
+    align-items: center;
+}
